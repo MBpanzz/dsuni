@@ -3,6 +3,8 @@ name = "dsuni"
 version = "0.1.0"
 edition = "2021"
 description = "A modular constraint solver in pure Rust — SAT, SMT, LP, MILP, CP, MINLP"
+license = "MIT"
+repository = "https://github.com/MBpanzz/dsuni"
 
 [lib]
 name = "dsuni"
