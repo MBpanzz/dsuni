@@ -7,7 +7,7 @@ name = "dsuni"
 version = "0.1.0"
 description = "A modular constraint solver — SAT, SMT, LP, MILP, CP, MINLP"
 readme = "README.md"
-license = "MIT"
+license-files = ["LICENSE"]
 requires-python = ">=3.8"
 keywords = ["solver", "sat", "smt", "linear-programming", "optimization", "constraint-programming"]
 classifiers = [
@@ -33,3 +33,4 @@ Repository = "https://github.com/MBpanzz/dsuni"
 [tool.maturin]
 features = ["python"]
 default-features = false
+include = ["LICENSE"]
