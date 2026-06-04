@@ -1,0 +1,4 @@
+# dsuni cargo configuration
+# Explicitly disable any system proxy that may interfere with crate downloads.
+[http]
+proxy = ""

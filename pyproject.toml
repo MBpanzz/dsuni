@@ -1,0 +1,19 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "dsuni"
+version = "0.1.0"
+description = "A modular constraint solver — SAT, SMT, LP, MILP, CP, MINLP"
+readme = "ROADMAP.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+
+[tool.maturin]
+features = ["python"]
+default-features = false

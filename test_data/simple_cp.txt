@@ -1,0 +1,4 @@
+# Simple CP: x = y, both 0..10
+var x 0 10
+var y 0 10
+eq x y

@@ -1,0 +1,34 @@
+# Rust
+target/
+*.o
+*.so
+*.dylib
+*.dll
+*.pyd
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.whl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Maturin
+.maturin/
+python/
+
+# Cargo lock (optional, keep for reproducible builds)
+# Cargo.lock

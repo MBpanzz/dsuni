@@ -1,0 +1,4 @@
+c (x1 OR x2) AND (NOT x1 OR x2)  -- x2=true satisfies
+p cnf 2 2
+1 2 0
+-1 2 0

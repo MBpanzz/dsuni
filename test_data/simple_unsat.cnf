@@ -1,0 +1,5 @@
+c (x1) AND (NOT x1 OR x2) AND (NOT x2)  -- UNSAT
+p cnf 2 3
+1 0
+-1 2 0
+-2 0

@@ -1,0 +1,29 @@
+[package]
+name = "dsuni"
+version = "0.1.0"
+edition = "2021"
+description = "A modular constraint solver in pure Rust — SAT, SMT, LP, MILP, CP, MINLP"
+
+[lib]
+name = "dsuni"
+crate-type = ["cdylib", "rlib"]
+
+[[bin]]
+name = "dsuni"
+path = "src/main.rs"
+required-features = ["cli"]
+
+[features]
+default = ["cli"]
+cli = ["clap"]
+python = ["dep:pyo3"]
+
+[dependencies]
+clap = { version = "4", features = ["derive"], optional = true }
+pyo3 = { version = "0.23", default-features = false, features = ["extension-module", "macros"], optional = true }
+
+[dev-dependencies]
+
+[profile.release]
+opt-level = 3
+lto = true

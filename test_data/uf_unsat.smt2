@@ -1,0 +1,8 @@
+(set-logic QF_UF)
+(declare-const a Bool)
+(declare-const b Bool)
+(declare-fun f (Bool) Bool)
+(assert (= (f a) b))
+(assert (not (= (f a) b)))
+(check-sat)
+(exit)
