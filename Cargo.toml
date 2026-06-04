@@ -1,6 +1,6 @@
 [package]
 name = "dsuni"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A modular constraint solver in pure Rust — SAT, SMT, LP, MILP, CP, MINLP"
 repository = "https://github.com/MBpanzz/dsuni"
