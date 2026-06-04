@@ -37,3 +37,7 @@ python/
 cxv.md
 ROADMAP.md
 zxv.md
+
+# Session artifacts
+.reasonix/
+wheels.zip
